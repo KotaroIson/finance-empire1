@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Finance Empire — Финансовая грамотность</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f0f4f8;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      background-color: #1e88e5;
+      color: white;
+      padding: 2rem;
+      width: 100%;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+
+    main {
+      margin-top: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 1rem;
+      width: 90%;
+      max-width: 1000px;
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card button {
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      border: none;
+      border-radius: 8px;
+      background-color: #1e88e5;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .card button:hover {
+      background-color: #1565c0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Finance Empire</h1>
+    <p>Открой путь к финансовой свободе через игру и знания</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>Финансовый тест</h2>
+      <p>Узнай свой стиль управления деньгами</p>
+      <button onclick="location.href='test.html'">Пройти тест</button>
+    </div>
+    <div class="card">
+      <h2>Мини-игра</h2>
+      <p>Прими финансовые решения и узнай последствия</p>
+      <button onclick="location.href='game.html'">Играть</button>
+    </div>
+    <div class="card">
+      <h2>Калькулятор</h2>
+      <p>Сравни кредиты и рассчитай переплату</p>
+      <button onclick="location.href='calculator.html'">Открыть калькулятор</button>
+    </div>
+    <div class="card">
+      <h2>База знаний</h2>
+      <p>Изучай статьи и советы по финансам</p>
+      <button onclick="location.href='knowledge.html'">Перейти</button>
+    </div>
+    <div class="card">
+      <h2>Финансовые челленджи</h2>
+      <p>Ежедневные задания для тренировки навыков</p>
+      <button onclick="location.href='challenges.html'">Начать</button>
+    </div>
+  
+    <div class="card">
+      <h2>Чат с ИИ</h2>
+      <p>Задай вопрос финансовому помощнику</p>
+      <button onclick="location.href='chat.html'">Открыть чат</button>
+    </div>
+    </main>
+
+</body>
+</html>
